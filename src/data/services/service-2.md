@@ -1,8 +1,8 @@
 ---
 #preview details
 image: "img/serv-i-2.svg"
-title: "Project Development"
-short: "Designing and Building The Most Beautiful Custom Homes."
+title: "Flooring Solutions"
+short: "Durable wooden, PVC, carpet, and epoxy flooring solutions for commercial and industrial spaces."
 
 #full details
 description0:

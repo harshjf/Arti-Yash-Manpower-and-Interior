@@ -5,7 +5,7 @@ import AboutSection from "@components/sections/About";
 import CallToActionSection from "@components/sections/CallToAction";
 import ImageView from "@components/ImageView";
 
-const CoreValues = () => {
+const AboutUs = () => {
   return (
     <Layouts>
       <ImageView />
@@ -35,17 +35,16 @@ const CoreValues = () => {
                 <div className="data">
                   <h3>Integrity</h3>
                   <p>
-                    We are caring—with a deep concern for and kindness to one
-                    another. We believe in the boundless potential of all people
-                    and feel a great responsibility to uplift one another and
-                    our families, and positively impact our communities.
+                    We uphold honesty and transparency in everything we do,
+                    ensuring trust and ethical practices in our work and
+                    relationships.
                   </p>
                 </div>
                 <div className="image">
                   <figure>
                     <img
                       className="w-100"
-                      src="/img/core-2.jpeg"
+                      src="/img/core-1.png"
                       alt="Core Values Image 1"
                     />
                   </figure>
@@ -56,37 +55,35 @@ const CoreValues = () => {
                   <figure>
                     <img
                       className="w-100"
-                      src="/img/about2.jpeg"
-                      alt="Core Values Image 1"
+                      src="/img/core-2.png"
+                      alt="Core Values Image 2"
                     />
                   </figure>
                 </div>
                 <div className="data">
                   <h3>Responsibility</h3>
                   <p>
-                    We are caring—with a deep concern for and kindness to one
-                    another. We believe in the boundless potential of all people
-                    and feel a great responsibility to uplift one another and
-                    our families, and positively impact our communities.
+                    We take ownership of our commitments, delivering quality
+                    solutions with dedication and accountability for long-term
+                    success.
                   </p>
                 </div>
               </li>
               <li>
                 <div className="data">
-                  <h3>Accountability</h3>
+                  <h3>Excellence</h3>
                   <p>
-                    We are caring—with a deep concern for and kindness to one
-                    another. We believe in the boundless potential of all people
-                    and feel a great responsibility to uplift one another and
-                    our families, and positively impact our communities.
+                    We strive for the highest standards in craftsmanship,
+                    service, and innovation to ensure superior results in every
+                    project.
                   </p>
                 </div>
                 <div className="image">
                   <figure>
                     <img
                       className="w-100"
-                      src="/img/core-1.jpeg"
-                      alt="Core Values Image 1"
+                      src="/img/core-3.png"
+                      alt="Core Values Image 3"
                     />
                   </figure>
                 </div>
@@ -98,7 +95,7 @@ const CoreValues = () => {
       {/* Core Values End */}
 
       {/* Gallery Style One Start */}
-      <div className="gallery-style-one">
+      {/* <div className="gallery-style-one">
         <div className="container-fluid g-0">
           <div className="row g-0">
             <div className="col-lg-3 col-md-6 col-sm-6">
@@ -191,11 +188,14 @@ const CoreValues = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Gallery Style One End */}
 
       {/* Innovation Start */}
-      <section className="gap innovation">
+      <section
+        className="innovation"
+        style={{ paddingTop: "50px", paddingBottom: "50px" }}
+      >
         <div className="heading">
           <span>MAKE A DIFFERENCE</span>
           <h2>Innovation in Action</h2>
@@ -205,27 +205,42 @@ const CoreValues = () => {
             <ul>
               <li>
                 <i className="fa-solid fa-check" />
-                <p>Dedication to client satisfaction</p>
+                <p>
+                  Delivering excellence in every project with top-tier
+                  craftsmanship.
+                </p>
               </li>
               <li>
                 <i className="fa-solid fa-check" />
-                <p>Dedication to client satisfaction</p>
+                <p>
+                  A team of trained professionals ensuring efficient and
+                  reliable execution.
+                </p>
               </li>
               <li>
                 <i className="fa-solid fa-check" />
-                <p>Dedication to client satisfaction</p>
+                <p> Prioritizing client needs with personalized solutions.</p>
               </li>
               <li>
                 <i className="fa-solid fa-check" />
-                <p>Dedication to client satisfaction</p>
+                <p>
+                  Implementing modern techniques and technology for superior
+                  results.
+                </p>
               </li>
               <li>
                 <i className="fa-solid fa-check" />
-                <p>Dedication to client satisfaction</p>
+                <p>
+                  Ensuring timely completion of projects without compromising
+                  quality.
+                </p>
               </li>
               <li>
                 <i className="fa-solid fa-check" />
-                <p>Dedication to client satisfaction</p>
+                <p>
+                  Offering a complete range of interior, construction, and
+                  manpower solutions.
+                </p>
               </li>
             </ul>
           </div>
@@ -237,4 +252,4 @@ const CoreValues = () => {
     </Layouts>
   );
 };
-export default CoreValues;
+export default AboutUs;

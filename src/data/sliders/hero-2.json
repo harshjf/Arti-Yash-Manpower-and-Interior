@@ -1,31 +1,19 @@
 {
-    "items": [
-        {
-            "image": "/img/project1.jpeg",
-            "title": "NewBridge on the Dedham",
-            "text": "We will go through all the stages of construction.",
-            "button": {
-                "link": "/contact",
-                "label": "Get a Consultation"
-            }
-        },
-        {
-            "image": "/img/slide2.jpeg",
-            "title": "Reconstruction of The Building",
-            "text": "We will go through all the stages of construction.",
-            "button": {
-                "link": "/contact",
-                "label": "Get a Consultation"
-            }
-        },
-        {
-            "image": "/img/slide3.jpeg",
-            "title": "Old Factory Construction",
-            "text": "We will go through all the stages of construction.",
-            "button": {
-                "link": "/contact",
-                "label": "Get a Consultation"
-            }
-        }
-    ]
+  "items": [
+    {
+      "image": "/img/slider1.jpg",
+      "title": "Transforming Spaces, Elevating Workplaces",
+      "text": "Expert interior solutions, from partitions to flooring, crafted for excellence."
+    },
+    {
+      "image": "/img/slider2.jpg",
+      "title": "Comprehensive Solutions, Reliable Workforce",
+      "text": "Skilled manpower and industrial services for seamless project execution."
+    },
+    {
+      "image": "/img/slider3.jpg",
+      "title": "Quality. Precision. Excellence.",
+      "text": "Transforming spaces with expert craftsmanship and end-to-end solutions."
+    }
+  ]
 }
