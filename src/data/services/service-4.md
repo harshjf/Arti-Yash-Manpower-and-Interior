@@ -1,8 +1,8 @@
 ---
 #preview details
 image: "img/serv-i-4.svg"
-title: "Welding & Laser"
-short: "Designing and Building The Most Beautiful Custom Homes."
+title: "Fabrication & Painting"
+short: "High-quality aluminium partitions, windows, custom fabrication, and professional painting services."
 
 #full details
 description0:

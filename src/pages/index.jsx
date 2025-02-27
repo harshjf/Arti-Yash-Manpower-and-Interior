@@ -11,28 +11,40 @@ import CountersSection from "@components/sections/Counters";
 import FeaturesSection from "@components/sections/Features";
 import RenovationSection from "@components/sections/Renovation";
 import LatestPostsSection from "@components/sections/LatestPosts";
+/* import Hero2Slider from "../components/sliders/Hero2"; */
 
-const HeroSlider = dynamic( () => import("@components/sliders/Hero"), { ssr: false } );
-const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
-const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
-const ProjectsSlider = dynamic( () => import("@components/sliders/Projects"), { ssr: false } );
-const TeamSlider = dynamic( () => import("@components/sliders/Team"), { ssr: false } );
+const Hero2Slider = dynamic(() => import("@components/sliders/Hero2"), {
+  ssr: false,
+});
+const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), {
+  ssr: false,
+});
+const TestimonialSlider = dynamic(
+  () => import("@components/sliders/Testimonial"),
+  { ssr: false }
+);
+const ProjectsSlider = dynamic(() => import("@components/sliders/Projects"), {
+  ssr: false,
+});
+const TeamSlider = dynamic(() => import("@components/sliders/Team"), {
+  ssr: false,
+});
 
 const Home1 = (props) => {
   return (
     <Layouts transparent>
       <>
-        <HeroSlider />
+        <Hero2Slider />
         <ServicesSection />
         <AboutSection />
         <CountersSection />
-        <ProjectsSlider projects={props.projects} />
-        <TeamSlider />
+        {/*  <ProjectsSlider projects={props.projects} /> */}
+        {/*  <TeamSlider /> */}
         <FeaturesSection />
-        <PartnersSlider />
+        {/*  <PartnersSlider /> */}
         <RenovationSection />
-        <TestimonialSlider />
-        <LatestPostsSection posts={props.posts} />
+        {/* <TestimonialSlider />
+        <LatestPostsSection posts={props.posts} /> */}
       </>
     </Layouts>
   );
@@ -46,7 +58,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts: allPosts,
-      projects: allProjects
-    }
-  }
+      projects: allProjects,
+    },
+  };
 }

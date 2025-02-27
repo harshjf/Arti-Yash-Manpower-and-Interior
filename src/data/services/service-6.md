@@ -1,8 +1,8 @@
 ---
 #preview details
-image: "img/serv-i-3.svg"
-title: "Workstations & Blinds"
-short: "Custom-designed workstations, vertical blinds, roller blinds, and modular office setups."
+image: "img/serv-i-5.svg"
+title: "Housekeeping Services"
+short: "Reliable housekeeping and facility management services for a clean and organized workspace."
 
 #full details
 description0:
@@ -25,19 +25,19 @@ description0:
 gallery: 
   enabled: 1
   items:
-      - image: /img/gallery-5.jpeg
+      - image: /img/gallery-2.jpeg
         alt: "image"
 
-      - image: /img/gallery-4.jpeg
+      - image: /img/gallery-1.jpeg
         alt: "image"
 
       - image: /img/gallery-3.jpeg
         alt: "image"
 
-      - image: /img/gallery-2.jpeg
+      - image: /img/gallery-4.jpeg
         alt: "image"
 
-      - image: /img/gallery-1.jpeg
+      - image: /img/gallery-5.jpeg
         alt: "image"          
 
 checklist:
@@ -76,3 +76,5 @@ accordion:
 Our knowledgeable cost management experts understand the importance of delivering a project to meet your expectations in terms of cost, time, and quality. We will work with you to find the right, flexible and valuable solutions. No matter what sector you operate in, or the **scale of your project**, our team have the experience and know-how to support you with your goals.
 
 In addition to construction consultancy services **Bureau Veritas is a global leader in testing**, inspection and certification (TIC) and we have more than 190+ years of experience meaning that we also can assist you in other areas of your business if needed.
+
+Our knowledgeable cost management experts understand the importance of delivering a project to meet your expectations in terms of cost, time, and quality. We will work with you to find the right, flexible and valuable solutions. No matter what sector you operate in, or the **scale of your project**, our team have the experience and know-how to support you with your goals.

@@ -1,8 +1,8 @@
 ---
 #preview details
 image: "img/serv-i-5.svg"
-title: "Architecture"
-short: "Designing and Building The Most Beautiful Custom Homes."
+title: "Epoxy Flooring"
+short: "Industrial-grade epoxy flooring solutions for high durability and seamless finishes."
 
 #full details
 description0:
