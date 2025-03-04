@@ -1741,6 +1741,7 @@ span.counter {
   position: relative;
 }
 .core-features .video:before {
+  display: none;
   content: "";
   width: 180px;
   height: 510px;

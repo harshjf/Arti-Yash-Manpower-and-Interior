@@ -3,7 +3,7 @@
 .contact-form-2 .info ul li svg,
 .team-detail .team-data .t-tel .data svg,
 .video-play-btn svg {
-    fill: $accent-1; 
+  fill: $accent-1;
 }
 
 /*Color*/
@@ -12,7 +12,7 @@
 .what-we-build .wwb-ul li.active:before,
 .w-counter ul li h2,
 .first .nav-tabs li button.active {
-    color: $accent-1;
+  color: $accent-1;
 }
 
 /*Light bg color*/
@@ -20,9 +20,8 @@
 .service-style-one .service-data:hover:before,
 button.scrollTopStick.active,
 .loading-text .letter:nth-child(1)::before,
-.loading-text .letter:nth-child(5)::before
- {
-    background-color: $accent-bg;
+.loading-text .letter:nth-child(5)::before {
+  background-color: $accent-bg;
 }
 
 /*Dark bg color*/
@@ -62,7 +61,7 @@ button.scrollTopStick.active,
 .blog-style-two .blog-item .blog-date:before,
 .blog-style-two .blog-item:before,
 .blog-slider .swiper-slide.swiper-slide-active:nth-child(2) .blog-item:before,
-.estimated-price .est-form .checkk input:checked+label,
+.estimated-price .est-form .checkk input:checked + label,
 .estimated-price:before,
 .estimated-price:after,
 .contact-us .c-data ul li a i:before,
@@ -104,14 +103,17 @@ button.scrollTopStick.active,
 .popups.modal:before,
 .desktop-nav .nav-bar .extras a.pr-cart:before,
 .cart-popup .cart-btns a.checkout,
-.preloader,
 .cart-popup .cart-btns a:hover,
 .mobile-nav.desktop-menu,
 .gallery-style-one a:before,
 .cart .cart-table .c-c .c-data .cr-svg:hover,
 .first .tab-data .map-pin,
 .first .tab-data .map-pin .location {
-    background-color: $accent-1;
+  background-color: $accent-1;
+}
+
+.preloader {
+  background-color: black;
 }
 
 /*Border color*/
@@ -155,9 +157,9 @@ textarea:focus-visible,
 .cart-popup .cart-btns a.checkout,
 .cart-popup .cart-btns a:hover,
 .box form input:focus,
-.featured-slider-one .swiper-nav button.swiper-nav-prev:before, 
+.featured-slider-one .swiper-nav button.swiper-nav-prev:before,
 .featured-slider-one .swiper-nav button.swiper-nav-next:before,
 .cart .cart-table .c-c .c-data .cr-svg:hover,
 .first .tab-data .map-pin .location {
-    border-color: $accent-1;
+  border-color: $accent-1;
 }
