@@ -127,7 +127,7 @@ a:hover {
   padding-right: 0 !important;
 }
 .gap {
-  padding: 120px 0;
+  padding: 70px 0;
   position: relative;
 }
 .no-top {
@@ -7105,4 +7105,44 @@ img.mfp-img {
       left: -50px;
     }
   }
+}
+
+.certificates-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.certificates-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.certificates-logos {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+}
+
+.certificates-logos img {
+  max-width: 150px;
+  height: auto;
+}
+.logo-title-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-image {
+  height: auto;
+  width: 90px;
+}
+
+.company-title {
+  color: #c3a376;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.6;
 }

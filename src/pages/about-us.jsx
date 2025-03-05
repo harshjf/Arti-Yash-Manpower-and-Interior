@@ -94,102 +94,19 @@ const AboutUs = () => {
       </section>
       {/* Core Values End */}
 
-      {/* Gallery Style One Start */}
-      {/* <div className="gallery-style-one">
-        <div className="container-fluid g-0">
-          <div className="row g-0">
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <figure>
-                <a data-fancybox="gallery" href="/img/gallery-1.jpeg">
-                  <img
-                    className="img-fluid w-100"
-                    src="/img/gallery-1.jpeg"
-                    alt="Gallery 1"
-                  />
-                </a>
-              </figure>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <figure>
-                <a data-fancybox="gallery" href="/img/gallery-2.jpeg">
-                  <img
-                    className="img-fluid w-100"
-                    src="/img/gallery-2.jpeg"
-                    alt="Gallery 2"
-                  />
-                </a>
-              </figure>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <figure>
-                <a data-fancybox="gallery" href="/img/gallery-3.jpeg">
-                  <img
-                    className="img-fluid w-100"
-                    src="/img/gallery-3.jpeg"
-                    alt="Gallery 3"
-                  />
-                </a>
-              </figure>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <figure>
-                <a data-fancybox="gallery" href="/img/gallery-4.jpeg">
-                  <img
-                    className="img-fluid w-100"
-                    src="/img/gallery-4.jpeg"
-                    alt="Gallery 4"
-                  />
-                </a>
-              </figure>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <figure>
-                <a data-fancybox="gallery" href="/img/gallery-5.jpeg">
-                  <img
-                    className="img-fluid w-100"
-                    src="/img/gallery-5.jpeg"
-                    alt="Gallery 5"
-                  />
-                </a>
-              </figure>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <figure>
-                <a data-fancybox="gallery" href="/img/gallery-6.jpeg">
-                  <img
-                    className="img-fluid w-100"
-                    src="/img/gallery-6.jpeg"
-                    alt="Gallery 6"
-                  />
-                </a>
-              </figure>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <figure>
-                <a data-fancybox="gallery" href="/img/gallery-7.jpeg">
-                  <img
-                    className="img-fluid w-100"
-                    src="/img/gallery-7.jpeg"
-                    alt="Gallery 7"
-                  />
-                </a>
-              </figure>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <figure>
-                <a data-fancybox="gallery" href="/img/gallery-8.jpeg">
-                  <img
-                    className="img-fluid w-100"
-                    src="/img/gallery-8.jpeg"
-                    alt="Gallery 8"
-                  />
-                </a>
-              </figure>
-            </div>
-          </div>
+      {/* Certificates Section Start */}
+      <section className="certificates-section">
+        <div className="heading">
+          <h2>We are Certified by</h2>
         </div>
-      </div> */}
-      {/* Gallery Style One End */}
+
+        <div className="certificates-logos">
+          <img src="/img/certificatelogo1.png" alt="Certificate 1" />
+          <img src="/img/certificatelogo2.webp" alt="Certificate 2" />
+          <img src="/img/certificatelogo3.webp" alt="Certificate 3" />
+        </div>
+      </section>
+      {/* Certificates Section End */}
 
       {/* Innovation Start */}
       <section

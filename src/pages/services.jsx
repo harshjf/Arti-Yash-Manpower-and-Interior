@@ -67,7 +67,7 @@ const Services = (props) => {
                     <figure>
                       <img
                         className="w-100"
-                        src="/img/serviceCat-1.png"
+                        src="/img/interior.avif"
                         alt="Services Nav Image 1"
                       />
                       <figcaption>
@@ -104,7 +104,7 @@ const Services = (props) => {
                     <figure>
                       <img
                         className="w-100"
-                        src="/img/serviceCat-3.png"
+                        src="/img/manpower.jpeg"
                         alt="Services Nav Image 3"
                       />
                       <figcaption>
@@ -134,7 +134,7 @@ const Services = (props) => {
             <figure>
               <img
                 className="w-100"
-                src="/img/all-services.png"
+                src="/img/all-services2.png"
                 alt="Video PopUp Image"
               />
             </figure>

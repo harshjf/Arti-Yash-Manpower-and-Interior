@@ -57,13 +57,19 @@ const DefaultHeader = ({ contactButton, cartButton }) => {
                   <div className="d-flex-all justify-content-between">
                     <div className="header-logo">
                       <Link href="/">
-                        <figure>
-                          <img
-                            src={appData.header.logo.image}
-                            alt={appData.header.logo.alt}
-                            style={{ height: "auto", width: "90px" }}
-                          />
-                        </figure>
+                        <div className="logo-title-container">
+                          <figure>
+                            <img
+                              src={appData.header.logo.image}
+                              alt={appData.header.logo.alt}
+                              className="logo-image"
+                            />
+                          </figure>
+                          <div className="company-title">
+                            ARTI YASH MANPOWER AND <br /> INTERIOR INDIA PRIVATE
+                            LIMITED
+                          </div>
+                        </div>
                       </Link>
                     </div>
                     <div className="nav-bar">
