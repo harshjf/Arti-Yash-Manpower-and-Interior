@@ -1,34 +1,9 @@
 import PageBanner from "@components/PageBanner";
 import Layouts from "@layouts/Layouts";
-import Accordion from "react-bootstrap/Accordion";
 import appData from "@data/app.json";
 import { Formik } from "formik";
 
 const Contact = () => {
-  const faqData = {
-    items: [
-      {
-        title: "Occupational Health Risk Management?",
-        text: "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.",
-      },
-      {
-        title: "What is commercial management in construction?",
-        text: "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.",
-      },
-      {
-        title: "Start a construction management?",
-        text: "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.",
-      },
-      {
-        title: "Measure quality in construction projects?",
-        text: "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.",
-      },
-      {
-        title: "Prepare a construction project schedule?",
-        text: "Commercial management in construction ensures the planning, execution, and coordination of a construction project from the start to finish. These are often for specific projects such as building or renovation projects that are sold or leased.",
-      },
-    ],
-  };
 
   return (
     <Layouts>
@@ -72,16 +47,16 @@ const Contact = () => {
                   onSubmit={(values, { setSubmitting }) => {
                     const form = document.getElementById("contactForm");
                     const status = document.getElementById("contactFormStatus");
-                    const data = new FormData();
+                    const data = {
+                      name: values.name,
+                      subject: values.subject,
+                      email: values.email,
+                      message: values.message
+                    }
 
-                    data.append("name", values.name);
-                    data.append("subject", values.subject);
-                    data.append("email", values.email);
-                    data.append("message", values.message);
-
-                    fetch(form.action, {
+                    fetch("/api/sendEmail", {
                       method: "POST",
-                      body: data,
+                      body: JSON.stringify(data),
                       headers: {
                         Accept: "application/json",
                       },
@@ -91,16 +66,7 @@ const Contact = () => {
                           status.innerHTML = "Thanks for your submission!";
                           form.reset();
                         } else {
-                          response.json().then((data) => {
-                            if (Object.hasOwn(data, "errors")) {
-                              status.innerHTML = data["errors"]
-                                .map((error) => error["message"])
-                                .join(", ");
-                            } else {
-                              status.innerHTML =
-                                "Oops! There was a problem submitting your form";
-                            }
-                          });
+                          status.innerHTML = "Oops! There was a problem submitting your form";
                         }
                       })
                       .catch((error) => {
@@ -277,7 +243,7 @@ const Contact = () => {
                     </svg>
                     <div>
                       <h3>Telephone:</h3>
-                      <p>Tel: 6395327551</p>
+                      <p>Tel: +91-6395327551</p>
                     </div>
                   </li>
                   <li>
@@ -318,7 +284,7 @@ const Contact = () => {
                     </svg>
                     <div>
                       <h3>Email:</h3>
-                      <p>aymp-info@gmail.com</p>
+                      <p>aymp.info@aympinterior.com</p>
                     </div>
                   </li>
                 </ul>

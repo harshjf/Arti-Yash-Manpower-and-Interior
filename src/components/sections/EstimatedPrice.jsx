@@ -206,7 +206,7 @@ const EstimatedPriceSection = () => {
                                       type="email" 
                                       id="inputState-5" 
                                       className="form-control" 
-                                      placeholder="johndoe@gmail.com"
+                                      placeholder="aymp.info@aympinterior.com"
                                       name="email"
                                       required="required" 
                                       onChange={handleChange}
