@@ -67,7 +67,7 @@ const Services = (props) => {
                     <figure>
                       <img
                         className="w-100"
-                        src="/img/interior.avif"
+                        src="/img/interior.jpeg"
                         alt="Services Nav Image 1"
                       />
                       <figcaption>
